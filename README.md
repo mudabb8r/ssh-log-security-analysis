@@ -64,4 +64,4 @@ pytest                                  # run the tests
 └── requirements.txt
 ```
 
-*Author: Mohammed Mudabbir Ahmed · B.Sc. Data Science, Memorial University of Newfoundland · Google Cybersecurity certificate courses · [LinkedIn](https://www.linkedin.com/in/mmudabbirahmed)*
+* [LinkedIn](https://www.linkedin.com/in/mmudabbirahmed)*
