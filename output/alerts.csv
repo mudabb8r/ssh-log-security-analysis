@@ -1,0 +1,21 @@
+rule,severity,source_ip,first_seen,last_seen,event_count,detail,mitre_attack
+Brute-force login,HIGH,183.62.140.253,2016-12-10 10:54:29,2016-12-10 11:04:43,286,"peak 279 failures in 10min; top users tried: root, oracle, zhangyan",T1110.001 Password Guessing
+Brute-force login,HIGH,187.141.143.180,2016-12-10 09:12:48,2016-12-10 09:20:02,80,"peak 80 failures in 10min; top users tried: root, oracle, git",T1110.001 Password Guessing
+Brute-force login,HIGH,103.99.0.122,2016-12-10 09:11:21,2016-12-10 11:04:45,46,"peak 30 failures in 10min; top users tried: admin, root, user",T1110.001 Password Guessing
+Brute-force login,HIGH,112.95.230.3,2016-12-10 07:27:52,2016-12-10 07:28:51,26,"peak 26 failures in 10min; top users tried: root, pgadmin, utsims",T1110.001 Password Guessing
+Brute-force login,HIGH,5.188.10.180,2016-12-10 08:24:35,2016-12-10 08:26:24,20,"peak 20 failures in 10min; top users tried: admin, 0, default",T1110.001 Password Guessing
+Brute-force login,HIGH,185.190.58.151,2016-12-10 09:07:23,2016-12-10 09:12:59,18,"peak 18 failures in 10min; top users tried: admin, 0, 123",T1110.001 Password Guessing
+Brute-force login,HIGH,123.235.32.19,2016-12-10 07:32:27,2016-12-10 07:34:23,7,peak 7 failures in 10min; top users tried: root,T1110.001 Password Guessing
+Brute-force login,HIGH,119.4.203.64,2016-12-10 10:14:01,2016-12-10 10:14:13,6,peak 6 failures in 10min; top users tried: admin,T1110.001 Password Guessing
+Brute-force login,HIGH,60.2.12.12,2016-12-10 10:04:54,2016-12-10 10:05:22,5,peak 5 failures in 10min; top users tried: root,T1110.001 Password Guessing
+Username enumeration,MEDIUM,103.99.0.122,2016-12-10 09:11:20,2016-12-10 11:04:45,70,"15 invalid usernames, e.g. admin, support, user, 1234, anonymous",T1110 Brute Force (username guessing)
+Username enumeration,MEDIUM,187.141.143.180,2016-12-10 09:16:48,2016-12-10 09:20:02,58,"24 invalid usernames, e.g. eoor, butter, redhat, oracle, postgres",T1110 Brute Force (username guessing)
+Username enumeration,MEDIUM,5.188.10.180,2016-12-10 08:24:32,2016-12-10 08:26:24,28,"6 invalid usernames, e.g. 0101, 0, 1234, admin, default",T1110 Brute Force (username guessing)
+Username enumeration,MEDIUM,185.190.58.151,2016-12-10 09:07:23,2016-12-10 09:12:59,25,"4 invalid usernames, e.g. 0, 123, admin, api",T1110 Brute Force (username guessing)
+Username enumeration,MEDIUM,183.62.140.253,2016-12-10 10:54:27,2016-12-10 10:55:56,18,"8 invalid usernames, e.g. zhangyan, dff, oracle, test, ubuntu",T1110 Brute Force (username guessing)
+Username enumeration,MEDIUM,52.80.34.196,2016-12-10 07:07:38,2016-12-10 10:21:09,10,"3 invalid usernames, e.g. test9, test, matlab",T1110 Brute Force (username guessing)
+Reverse DNS mismatch,LOW,187.141.143.180,2016-12-10 09:12:46,2016-12-10 09:20:00,80,hostname does not map back to this IP (often spoofed or misconfigured attack hosts),T1036 Masquerading
+Reverse DNS mismatch,LOW,173.234.31.186,2016-12-10 06:55:46,2016-12-10 07:08:28,2,hostname does not map back to this IP (often spoofed or misconfigured attack hosts),T1036 Masquerading
+Reverse DNS mismatch,LOW,195.154.37.122,2016-12-10 07:51:12,2016-12-10 07:51:17,2,hostname does not map back to this IP (often spoofed or misconfigured attack hosts),T1036 Masquerading
+Reverse DNS mismatch,LOW,191.210.223.172,2016-12-10 07:48:00,2016-12-10 07:48:00,1,hostname does not map back to this IP (often spoofed or misconfigured attack hosts),T1036 Masquerading
+Successful login,INFO,119.137.62.142,2016-12-10 09:32:20,2016-12-10 09:32:20,1,login as 'fztu' with no earlier failures (review if user/IP is unexpected),T1078 Valid Accounts
