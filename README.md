@@ -1,4 +1,4 @@
-# SSH Log Security Analysis — Brute-Force Detection in Python
+# SSH Log Security Analysis - Brute-Force Detection in Python
 
 A small detection tool that reads a Linux SSH server log, turns each line into a structured event, and runs **SIEM-style detection rules** to flag brute-force attacks, username enumeration, suspicious successful logins and spoofed hosts. Each alert is mapped to a **MITRE ATT&CK** technique and written up as an incident report.
 
